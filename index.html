@@ -4,25 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Matt Stockman's Portfolio</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
-
   <body>
-    <header></header>
     <main>
-      <!-- A level 1 heading -->
-      <h1>Matt Stockman</h1>
-      <!-- One or more level 2 or lower headings  -->
-      <h2>Junior Full Stack Developer</h2>
-      <!-- One or more paragraphs  -->
-        <h3> 
-            <!-- An external link which opens in the same tab -->
-            <a href="https://www.linkedin.com/mynetwork/catch-up/all/" target="_blank" rel="noreferrer noopener" />LinkedIn</a> 
-            <a href="mjjstockman@gmail.com">Email</a>
-            07816 940 144
+      <header>
+        <h1>Matt Stockman</h1>
+        <h2>Junior Full Stack Developer</h2>
+        <h3>
+          <a
+            href="https://www.linkedin.com/mynetwork/catch-up/all/"
+            target="_blank"
+            rel="noreferrer noopener"
+            >LinkedIn</a
+          >
+          <a
+            aria-label="Send an email to Matt Stockman"
+            href="mailto:mjjstockman@gmail.com"
+            >Email</a
+          >
         </h3>
+      </header>
 
-        <img id='desk-img'src="./assets/images/dev-desk.jpg" alt="Professional desktop, laptop, and tablet on a desk">
+      <img
+        id="desk-img"
+        src="./assets/images/dev-desk.jpg"
+        alt="Professional desktop, laptop, and tablet on a desk" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laboriosam
         provident ut quos, consequuntur dolores corrupti minima? Debitis,
@@ -37,14 +44,12 @@
         Exercitationem ea atque ipsa maiores dolorem expedita sit, iure illo
         vel.
       </p>
-      <!-- An unordered  -->
       <ul>
         <li>fds fgsdf</li>
         <li>fds fds</li>
         <li>fds fdsa</li>
-        <li>fdsfds </li>
+        <li>fdsfds</li>
       </ul>
-      <!-- list An ordered list -->
       <ol>
         <li>fgdas</li>
         <li>g fds</li>
@@ -52,13 +57,36 @@
       </ol>
 
       <h2>Projects</h2>
-      <!-- An external link which opens in the same tab -->
-      <a href="https://github.com/mjjstockman/ecomm" aria-label="Visit Example Website">Get Wurst</a>
 
+      <div id="projects-grid">
+        <div id="project1" class="grid-row-span-2">
+          <img
+            src="https://source.unsplash.com/random/?developer"
+            alt="random img of a developer" />
+        </div>
+        <div id="project2" class="grid-col-span-2">
+          <img
+            src="https://source.unsplash.com/random/?developer"
+            alt="random img of a developer" />
+        </div>
+        <div id="project3">
+          <img
+            src="https://source.unsplash.com/random/?developer"
+            alt="random img of a developer" />
+        </div>
+        <div id="project4">
+          <img
+            src="https://source.unsplash.com/random/?developer"
+            alt="random img of a developer" />
+        </div>
+      </div>
 
+      <a
+        href="https://github.com/mjjstockman/ecomm"
+        aria-label="Visit Example Website"
+        >Get Wurst</a
+      >
     </main>
-    <footer>
-        LinkedIn    Email  Phone Twitter
-    </footer>
+    <footer>LinkedIn Email Phone Twitter</footer>
   </body>
 </html>
