@@ -1,8 +1,18 @@
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #121212;
+  padding: 0 3em;
+  /* background-color: #121212; */
 }
 
 #desk-img {
   max-width: 100%;
   height: auto;
+  border: 10px #5c5d8d solid;
+  padding: 20px;
 }
